@@ -5,7 +5,7 @@
 
 
 # Project Name
-Princess Runner
+Princess Runner         
 Simple 
 2D project which is awesome to play and feel like good,which recollects your childhood memories.
 ## Team members
@@ -18,7 +18,7 @@ Simple
 ## Link to product walkthrough
 [link to video](https://www.kapwing.com/videos/66c1859696f72faac8f271ef)
 ## How it Works ?
-1. Unzip the file to run the project.
+1. Unzip the file to run the project.    
 2.Link of the project where you can access
    [Link](https://drive.google.com/file/d/1EHjJvItRKxMOz_5g18VMMHwxmATM0DbR/view?usp=drivesdk)
 ## Libraries used
