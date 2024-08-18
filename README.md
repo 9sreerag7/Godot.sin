@@ -15,13 +15,14 @@ Simple 2D project which is awesome to play and feel like good,which recollects y
 5. [Sreerag](https://github.com/TH-Activities/saturday-hack-night-template)
 6. Github id: 9sreerag7 
 ## Link to product walkthrough
-[link to video](Link Here)
+[link to video](https://www.kapwing.com/videos/66c1859696f72faac8f271ef)
 ## How it Works ?
-1. Explaining the working of project
-2. Embed video of project demo
+1. Unzip the file to run the project.
+2.Link of the project where you can access
+   [Link](https://drive.google.com/file/d/1EHjJvItRKxMOz_5g18VMMHwxmATM0DbR/view?usp=drivesdk)
 ## Libraries used
-Library Name - Version
+not all
 ## How to configure
-Instructions for setting up project
+No specific configuration required,Just unzip the file and you're ready to go..
 ## How to Run
-Instructions for running
+No specific instructions just unzip and extract it and use it.
