@@ -6,7 +6,8 @@
 
 # Project Name
 Princess Runner
-Simple 2D project which is awesome to play and feel like good,which recollects your childhood memories.
+Simple 
+2D project which is awesome to play and feel like good,which recollects your childhood memories.
 ## Team members
 1. [Nandana ](https://github.com/TH-Activities/saturday-hack-night-template)
 2. Github id: Nandanaaaah
