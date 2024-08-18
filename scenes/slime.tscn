@@ -1,0 +1,67 @@
+[gd_scene load_steps=10 format=3 uid="uid://dacbtpr3xwf8b"]
+
+[ext_resource type="Texture2D" uid="uid://ced0rxfsbw2h7" path="res://assets/sprites/slime_green.png" id="1_1t2c2"]
+[ext_resource type="Script" path="res://scripts/slime.gd" id="1_ywnjw"]
+[ext_resource type="PackedScene" uid="uid://6rvtgx1rlg6r" path="res://scenes/killzone.tscn" id="2_h2mgk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ngpxy"]
+atlas = ExtResource("1_1t2c2")
+region = Rect2(0, 24, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m17rv"]
+atlas = ExtResource("1_1t2c2")
+region = Rect2(24, 24, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3t7ds"]
+atlas = ExtResource("1_1t2c2")
+region = Rect2(48, 24, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2rwqi"]
+atlas = ExtResource("1_1t2c2")
+region = Rect2(72, 24, 24, 24)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ap35e"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ngpxy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m17rv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3t7ds")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2rwqi")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ukgci"]
+size = Vector2(10, 15)
+
+[node name="slime" type="Node2D"]
+script = ExtResource("1_ywnjw")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_ap35e")
+autoplay = "default"
+frame = 2
+frame_progress = 0.713503
+
+[node name="killzone" parent="." instance=ExtResource("2_h2mgk")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="killzone"]
+position = Vector2(0, 4)
+shape = SubResource("RectangleShape2D_ukgci")
+
+[node name="RayCastRight" type="RayCast2D" parent="."]
+rotation = -1.5708
+target_position = Vector2(-4.80825e-07, 11)
+
+[node name="RayCastLeft" type="RayCast2D" parent="."]
+rotation = -4.88692
+target_position = Vector2(-1.91013, 10.8329)
