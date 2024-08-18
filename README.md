@@ -5,10 +5,15 @@
 
 
 # Project Name
-Long Description about project. This project do that. This project is awesome...
+Princess Runner
+Simple 2D project which is awesome to play and feel like good,which recollects your childhood memories.
 ## Team members
-1. [Name 1](https://github.com/TH-Activities/saturday-hack-night-template)
-2. [Name 2](https://github.com/TH-Activities/saturday-hack-night-template)
+1. [Nandana ](https://github.com/TH-Activities/saturday-hack-night-template)
+2. Github id: Nandanaaaah
+3. [Irene](https://github.com/TH-Activities/saturday-hack-night-template)
+4. Github id: Irene26at
+5. [Sreerag](https://github.com/TH-Activities/saturday-hack-night-template)
+6. Github id: 9sreerag7 
 ## Link to product walkthrough
 [link to video](Link Here)
 ## How it Works ?
